@@ -26,7 +26,7 @@ while (reversedNumber >= 1) {
     reversedNumber--;
 }
 
-// Activity-2 : Do-While loop
+// Activity-3 : Do-While loop
 console.log("____Task-5___");
 let num = 1;
 do {
@@ -45,6 +45,7 @@ do {
 } while (fNum >= 1);
 console.log(`The factorial of ${originalNum} is : ${fac}`);
 
+// Activity-4 : Nested loop
 console.log("____Task-7___");
 for (let i = 1; i <= 5; i++) {
     let pattern = "";
