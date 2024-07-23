@@ -8,7 +8,6 @@ console.log("___Task-2___");
 
 console.log(`Access the first element of the array: [${arr[0]}] and the last element of the array: [${arr[4]}]`);
 
-
 // Activity-2: Array Methods(Basic)
 console.log("___Task-3___");
 
@@ -30,9 +29,7 @@ console.log("___Task-6___");
 arr.unshift(1);
 console.log(`Add new number [${arr}] to the start of the array using unshift method`);
 
-
 // Activity-3: Array Methods(Intermediate)
-
 console.log("___Task-7___");
 
 const newArrMap = arr.map((num) => num * num)
