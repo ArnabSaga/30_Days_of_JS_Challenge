@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation</title>
+</head>
+
+<body>
+    <div class="activityOne">
+        <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam similique nostrum vitae beatae
+            numquam voluptatibus eius quisquam in sint fuga laudantium, ab minus voluptate laborum accusantium iusto qui
+            officia amet.</p>
+        <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam similique nostrum vitae beatae
+            numquam voluptatibus eius quisquam in sint fuga laudantium, ab minus voluptate laborum accusantium iusto qui
+            officia amet.</p>
+    </div>
+    <div class="activityTwo">
+        <ul class="navbar">
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </div>
+    <div class="activityThree">
+        <p class="activityThreePara1">Remove the element - 1 for the html</p>
+        <p class="activityThreePara2">Remove the element - 2 for the html</p>
+        <p class="activityThreePara3">Remove the element - 3 for the html</p>
+        <button onclick="removeBtn()">Remove</button>
+    </div>
+    <div class="activityFour">
+        <div class="taskSeven">
+            <img id="myImg"
+                src="https://imgs.search.brave.com/WHcUYdirn_CqdUtRs1EgZ-NRdDJuEKuRNpVZQpfEgos/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9kYXZp/ZHdhbHNoLm5hbWUv/ZGVtby9KYXZhU2Ny/aXB0TGlzdEltYWdl/LnBuZz9wcmV2aWV3"
+                alt="js">
+            <button onclick="changeImageSource()">Change Image</button>
+        </div>
+        <div class="taskEight">
+            <p id="myPara">This is a paragraph.</p>
+            <button onclick="toggleHighlight()">
+                Toggle Highlight
+            </button>
+        </div>
+    </div>
+    <div class="activityFive">
+        <div class="taskNine">
+            <p id="myText">This is the original text.</p>
+            <button id="changeTextButton">Change Text</button>
+        </div>
+        <div class="taskTen">
+            <div style="border: 2px solid black;
+            padding: 20px;
+            display: inline-block;" id="hoverBox" class="border-box">Hover over me!</div>
+        </div>
+    </div>
+    <script src="./dom_manipulation.js"></script>
+</body>
+
+</html>
