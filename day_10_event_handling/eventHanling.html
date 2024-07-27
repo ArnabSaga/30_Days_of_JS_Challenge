@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Hanling</title>
+    <style>
+        #backgroupcolorChangeElement {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="activityOne">
+        <div class="taskOne">
+            <p id="paragraphOne">This is a paragraph</p>
+
+            <button id="buttonOne">Change Text Context</button>
+        </div>
+        <div class="taskTwo">
+            <img id="imgTwo"
+                src="https://imgs.search.brave.com/WHcUYdirn_CqdUtRs1EgZ-NRdDJuEKuRNpVZQpfEgos/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9kYXZp/ZHdhbHNoLm5hbWUv/ZGVtby9KYXZhU2Ny/aXB0TGlzdEltYWdl/LnBuZz9wcmV2aWV3"
+                alt="js" style="display: block;">
+            <button id="btnTwo">Toggle Visibility</button>
+        </div>
+    </div>
+    <hr>
+    <div class="activityTwo">
+        <div class="taskThree">
+            <p id="backgroupcolorChangeElement">This is a backgroup-color change paragraph </p>
+        </div>
+    </div>
+    <hr>
+    <div class="activityThree">
+        <div>
+            <form>
+                <input id="inputKeyPressed" type="text">
+                <p id="displayParagraph"></p>
+            </form>
+        </div>
+    </div>
+    <hr>
+    <div class="activityFour">
+        <div class="taskSeven">
+            <form id="taskSevenFrom">
+                <input id="taskSevenInput" type="text">
+            </form>
+        </div>
+        <div class="taskEight">
+            <select name="languages" id="taskEightSelect">
+                <option value="javascript" selected>JavaScript</option>
+                <option value="php">PHP</option>
+                <option value="java">Java</option>
+            </select>
+            <p id="taskEightDisplayParagraph">Selected languages: JavaScript</p>
+        </div>
+    </div>
+    <hr>
+    <div class="activityFive">
+        <div class="taskNine">
+            <ul class="taskNineList">
+                <li>Item - 1</li>
+                <li>Item - 2</li>
+                <li>Item - 3</li>
+            </ul>
+        </div>
+        <div class="taskTen">
+            <div class="taskTenParentElement">
+                <button class="taskTenBtn">Add Child Element</button>
+            </div>
+        </div>
+    </div>
+    <script src="./eventHanling.js"></script>
+</body>
+
+</html>
