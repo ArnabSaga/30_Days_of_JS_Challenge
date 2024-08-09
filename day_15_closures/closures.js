@@ -118,7 +118,7 @@ function memoize(func) {
         const key = JSON.stringify(args);
         if (cache[key]) {
             return cache[key];
-        }else {
+        } else {
             const result = func(...args);
             cache[key] = result;
             return result;
@@ -128,18 +128,18 @@ function memoize(func) {
 
 function add(a, b) {
     return a + b;
-} 
+}
 
 const memoizedAdd = memoize(add);
-console.log(memoizedAdd(1, 2)); 
-console.log(memoizedAdd(1, 2)); 
+console.log(memoizedAdd(1, 2));
+console.log(memoizedAdd(1, 2));
 
 
 console.log("___Task-8___");
 
 function memoizedFactorial() {
     const cache = {};
-    
+
     function factorial(n) {
         if (n === 0 || n === 1) {
             return 1;
@@ -152,10 +152,10 @@ function memoizedFactorial() {
             return result;
         }
     }
-    
+
     return factorial;
 }
 
 const factorial = memoizedFactorial();
-console.log(factorial(5)); 
+console.log(factorial(5));
 console.log(factorial(6)); 
